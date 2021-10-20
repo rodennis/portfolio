@@ -8,7 +8,6 @@ html, body {
 
 nav {
     display: inline-block;
-    padding: px;
     width: 100%;
     background: rgba(0,0,0,0.7);
     position: fixed;
@@ -18,7 +17,8 @@ li {
     display: inline;
     padding: 0px 10px 0px 10px;
     position: relative;
-    margin-left: 300px;
+    margin-left: 270px;
+    font-family: 'playball';
 }
 
 
