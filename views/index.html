@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/public/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/public/JS/style.js" defer></script>
+    <script src="/JS/style.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -40,7 +40,7 @@
     <div id="projects">
         <div id="project-set1">
     <div class="project1">
-        <img id="main-img" src="/photos/test-photo.jpeg" alt=""><br>
+        <img id="main-img" src="/photos/portfolio.png" alt=""><br>
         <img src="/photos/html-logo.png" alt="">
         <img src="/photos/css-logo.png" alt="">
         <img src="/photos/javascript-logo.png" alt="">
@@ -70,14 +70,14 @@
     </div>
     <div id="contact-me">
         <div class="contact-form">
-            <form action="">
+            <form action="" method="POST" class="contactForm">
                 <h2>Let's Talk</h2>
                 <input id="firstName" type="text" name="firstName" placeholder="First Name" required>
                 <input id="lastName" type="text" name="lastName" placeholder="Last Name" required><br>
                 <input id="email" type="text" name="email" placeholder="example@email.com" required><br>
                 <input id="phone" type="text" name="phoneNumber" placeholder="(000)000-0000"><br>
                 <textarea id="message" name="message" placeholder="Message..." id="message" cols="30" rows="10"></textarea>
-                <button id="submit">Submit -></button>
+                <input type="submit" id="submit" class="submit" value="Send Message">
             </form>
         </div>
     </div>

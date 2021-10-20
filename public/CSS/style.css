@@ -19,7 +19,6 @@ li {
     padding: 0px 10px 0px 10px;
     position: relative;
     margin-left: 300px;
-    font-size: ;
 }
 
 
@@ -112,10 +111,6 @@ img {
     
 }
 
-.project1 img {
-    
-}
-
 /** Contact CSS**/
 
 #contact-me {
@@ -132,6 +127,7 @@ form {
     height: 500px;
     margin: auto;
     border-radius: 5px;
+    box-shadow: 0px 0px 20px gray;
 }
 
 h2 {
@@ -150,9 +146,7 @@ input[name=firstName] {
     margin-left: 40px;
     margin-top: 40px;
 }
-input[name=lastName] {
-    
-}
+
 input[name=email] {
     margin-left: 40px;
     margin-top: 30px;
@@ -176,18 +170,17 @@ textarea::placeholder {
     padding: 5px;
 }
 
-button {
+#submit {
     border-radius: 20px;
     border: 1px solid gray;
     color: white;
     background: gray;
     padding: 5px;
     margin-top: 40px;
-    margin-left: 170px;
-    text-align: ;
+    margin-left: 150px;
 }
 
-button:hover {
+#submit:hover {
     background-color: black;
 }
 
@@ -197,5 +190,9 @@ input:focus {
 
 textarea:focus {
     outline:none;
+}
+
+textarea {
+    resize: vertical;
 }
 
