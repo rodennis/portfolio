@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="style.js" defer></script>
+    <script src="/public/JS/style.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -70,14 +70,14 @@
     </div>
     <div id="contact-me">
         <div class="contact-form">
-            <form action="contact">
+            <form action="">
                 <h2>Let's Talk</h2>
-                <input type="text" name="firstName" placeholder="First Name" required>
-                <input type="text" name="lastName" placeholder="Last Name" required><br>
-                <input type="text" name="email" placeholder="example@email.com" required><br>
-                <input type="text" name="phoneNumber" placeholder="(000)000-0000"><br>
-                <textarea name="message" placeholder="Message..." id="message" cols="30" rows="10"></textarea>
-                <button>Submit -></button>
+                <input id="firstName" type="text" name="firstName" placeholder="First Name" required>
+                <input id="lastName" type="text" name="lastName" placeholder="Last Name" required><br>
+                <input id="email" type="text" name="email" placeholder="example@email.com" required><br>
+                <input id="phone" type="text" name="phoneNumber" placeholder="(000)000-0000"><br>
+                <textarea id="message" name="message" placeholder="Message..." id="message" cols="30" rows="10"></textarea>
+                <button id="submit">Submit -></button>
             </form>
         </div>
     </div>
