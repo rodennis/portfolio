@@ -4,6 +4,7 @@ const phone = document.getElementById('phone');
 const email = document.getElementById('email');
 const message = document.getElementById('message');
 const submit = document.querySelector('.contactForm');
+const exit = document.getElementById('exit')
 
 submit.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -14,7 +15,6 @@ submit.addEventListener('submit', (e) => {
         email: email.value,
         message: message.value
     }
-    console.log(formData)
 
     let xhr = new XMLHttpRequest();
     xhr.open('POST', '/');
@@ -22,7 +22,7 @@ submit.addEventListener('submit', (e) => {
     xhr.onload = function() {
         console.log(xhr.responseText);
         if(xhr.responseText == 'success') {
-            alert('Email sent');
+            document.getElementById('success').className='show'
             firstName.value = '';
             lastName.value = '';
             phone.value = '';
@@ -34,3 +34,7 @@ submit.addEventListener('submit', (e) => {
     }
     xhr.send(JSON.stringify(formData))
 })  
+
+exit.addEventListener('click', () => {
+    document.getElementById('success').className='hide'
+})
