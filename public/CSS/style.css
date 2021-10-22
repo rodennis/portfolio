@@ -313,6 +313,12 @@ textarea {
 
       @media (max-width:600px){
 
+        html, body {
+            margin: 0px;
+            scroll-behavior: smooth;
+        
+        }
+
       /* Responsiveness info section */
       #about {
           flex-direction: column;  
