@@ -245,7 +245,7 @@ textarea {
   }
 
 /* Responsiveness css */
-  @media (max-width:600px) {
+  @media (max-width:1105px) {
       #nav {
           height: 50px;
         
@@ -309,6 +309,9 @@ textarea {
       li a {
           color: black;
       }
+    }
+
+      @media (max-width:600px){
 
       /* Responsiveness info section */
       #about {
@@ -359,7 +362,7 @@ textarea {
       #project-set1, #project-set2 {
           flex-direction: column;
           margin: auto;
-          width: 50%;
+          width: 40%;
       }
 
       #projects #main-img {
@@ -407,7 +410,7 @@ textarea {
 
     h2 {
         margin: auto;
-        width: 25%;
+        width: 27%;
     }
 
       }
