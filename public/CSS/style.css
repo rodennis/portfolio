@@ -359,13 +359,6 @@ textarea {
     /* Responsiveness projects secion */
       #projects {
           height: 650px;
-            background-image: url("/photos/project-bg.jpeg");
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-              
-        }
       }
 
       #project-set1, #project-set2 {
