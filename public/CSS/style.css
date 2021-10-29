@@ -47,6 +47,10 @@ a {
     font-size: 100px;
 }
 
+hr { 
+  display: none;
+}
+
 h1 {
     font-size: 75px;
     margin: auto;
@@ -305,14 +309,13 @@ textarea {
       li a {
           color: black;
       }
-    }
 
     hr {
         display: block;
         width: 200px;
     }
 
-      @media (max-width:600px){
+    
 
         html, body {
             margin: 0px;
